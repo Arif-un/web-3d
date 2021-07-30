@@ -1,0 +1,40 @@
+:root{
+  --dp-txt:207, 61%, 23%;
+}
+body{
+  display: grid;
+  background: rgb(245 247 255);
+  min-height:90vh;
+  place-content: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding:0;
+}
+h1{
+  color: hsl(var(--dp-txt)) ;
+}
+a{
+  display: inline-grid;
+  border: 2px solid hsl(var(--dp-txt));
+  place-content: center;
+  border-radius: 19px;
+  text-decoration: none;
+  width: 200px;
+  height:50px;
+  font-weight: 500;
+}
+
+a.react {
+  background:rgb(20, 41, 49);
+  color:#61dafb;
+}
+
+footer{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  color:hsl(var(--dp-txt));
+  padding-block:20px;
+}
